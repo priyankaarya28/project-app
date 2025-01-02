@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-left .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: green;
+  text-decoration: none;
+}
+
+.navbar-center {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid green;
+  border-radius: 50px;
+}
+
+.location-dropdown {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-button {
+  padding: 8px 15px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: darkgreen;
+}
+
+.navbar-right a {
+  margin-left: 15px;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+.product{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.product a{
+  margin-left: 15px;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+.product:hover{
+ color: darkgreen;
+}
+
+
+.navbar-right .icon {
+  font-size: 18px;
+}
+
+.navbar-right a:hover {
+  color: green;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+  gap: 20px; /* Space between grid items */
+  padding: 20px;
+}
+
+.grid-item {
+  text-align: center; /* Center-align text and images */
+}
+
+.grid-item img {
+  width: 100%; /* Ensure images fill their grid container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.grid-item h5 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #333; /* Optional: Adjust color for better readability */
+}
